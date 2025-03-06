@@ -1,0 +1,46 @@
+{
+    "project_name": "college_crawler_www.adit.ac.in",
+    "goal": "Extract admission and placement information",
+    "seed_urls": [
+        "https://www.adit.ac.in"
+    ],
+    "keywords": [
+        "admission",
+        "placement",
+        "eligibility",
+        "fee",
+        "cutoff",
+        "entrance exam",
+        "scholarship",
+        "placed",
+        "packages",
+        "recruiter",
+        "internship",
+        "student",
+        "record",
+        "statistics"
+    ],
+    "allowed_domains": [
+        "www.adit.ac.in"
+    ],
+    "max_depth": 3,
+    "max_pages_per_domain": 100,
+    "crawl_frequency": "daily",
+    "custom_frequency_minutes": 1440,
+    "respect_robots_txt": false,
+    "user_agent": "SmartWebCrawler/1.0",
+    "extract_full_text": true,
+    "min_content_length": 100,
+    "filter_advertisements": true,
+    "use_nlp": true,
+    "use_ml_classification": false,
+    "confidence_threshold": 0.7,
+    "output_directory": "d:\\web_crawler\\data\\results\\www_adit_ac_in",
+    "output_format": "json",
+    "save_html": false,
+    "parallel_crawlers": 1,
+    "request_timeout": 30,
+    "request_delay": 1.0,
+    "enable_notifications": false,
+    "notification_email": ""
+}

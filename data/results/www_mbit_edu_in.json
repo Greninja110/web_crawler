@@ -1,0 +1,13 @@
+{
+  "college_name": "MBIT COLLEGE",
+  "website": "https://www.mbit.edu.in",
+  "admission_data": {},
+  "placement_data": {},
+  "fee_structure": {},
+  "recruiters": [],
+  "student_records": {},
+  "crawl_time": "2025-03-06T16:48:59.513471",
+  "status": "error",
+  "message": "Error crawling website: Set changed size during iteration",
+  "pages_processed": 0
+}

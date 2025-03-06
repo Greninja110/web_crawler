@@ -1,0 +1,944 @@
+2025-03-05 18:15:31,827 - __main__ - WARNING - Could not load spaCy model. Run: python -m spacy download en_core_web_sm
+2025-03-05 18:15:31,828 - __main__ - WARNING - Could not load spaCy model for structured data extraction
+2025-03-05 18:15:31,833 - __main__ - WARNING - Model or vectorizer file not found
+2025-03-05 18:15:31,833 - __main__ - INFO - No trained model found, training a new one
+2025-03-05 18:15:31,849 - __main__ - INFO - Saved model to models\lr_model.joblib and vectorizer to models\vectorizer.joblib
+2025-03-05 18:15:31,850 - __main__ - INFO - URL queue is empty, crawler finished
+2025-03-05 18:15:31,850 - __main__ - INFO - Crawling complete. Processed 0 pages.
+2025-03-05 18:15:31,851 - __main__ - WARNING - Detected issue: Low extraction success rate: 0.00
+2025-03-05 18:15:31,852 - __main__ - INFO - Crawl completed: 0 pages crawled, 0 successful extractions
+2025-03-05 18:15:31,852 - __main__ - INFO - Crawling complete, processed 0 pages
+2025-03-05 18:16:41,380 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:16:41,738 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:16:41,739 - __main__ - INFO - URL queue is empty, crawler finished
+2025-03-05 18:16:41,739 - __main__ - INFO - Crawling complete. Processed 0 pages.
+2025-03-05 18:16:41,739 - __main__ - WARNING - Detected issue: Low extraction success rate: 0.00
+2025-03-05 18:16:41,740 - __main__ - INFO - Crawl completed: 0 pages crawled, 0 successful extractions
+2025-03-05 18:16:41,740 - __main__ - INFO - Crawling complete, processed 0 pages
+2025-03-05 18:20:07,057 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:20:07,366 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:20:07,367 - __main__ - INFO - URL queue is empty, crawler finished
+2025-03-05 18:20:07,367 - __main__ - INFO - Crawling complete. Processed 0 pages.
+2025-03-05 18:20:07,367 - __main__ - WARNING - Detected issue: Low extraction success rate: 0.00
+2025-03-05 18:20:07,368 - __main__ - INFO - Crawl completed: 0 pages crawled, 0 successful extractions
+2025-03-05 18:20:07,368 - __main__ - INFO - Crawling complete, processed 0 pages
+2025-03-05 18:23:04,667 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:23:04,956 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:23:04,957 - __main__ - INFO - URL queue is empty, crawler finished
+2025-03-05 18:23:04,957 - __main__ - INFO - Crawling complete. Processed 0 pages.
+2025-03-05 18:23:04,957 - __main__ - WARNING - Detected issue: Low extraction success rate: 0.00
+2025-03-05 18:23:04,957 - __main__ - INFO - Crawl completed: 0 pages crawled, 0 successful extractions
+2025-03-05 18:23:28,600 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:23:28,923 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:23:28,924 - __main__ - INFO - URL queue is empty, crawler finished
+2025-03-05 18:23:28,924 - __main__ - INFO - Crawling complete. Processed 0 pages.
+2025-03-05 18:23:28,926 - __main__ - WARNING - Detected issue: Low extraction success rate: 0.00
+2025-03-05 18:23:28,926 - __main__ - INFO - Crawl completed: 0 pages crawled, 0 successful extractions
+2025-03-05 18:25:09,765 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:25:10,042 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:25:10,043 - __main__ - INFO - URL queue is empty, crawler finished
+2025-03-05 18:25:10,043 - __main__ - INFO - Crawling complete. Processed 0 pages.
+2025-03-05 18:25:10,043 - __main__ - WARNING - Detected issue: Low extraction success rate: 0.00
+2025-03-05 18:25:10,044 - __main__ - INFO - Crawl completed: 0 pages crawled, 0 successful extractions
+2025-03-05 18:29:07,480 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:29:07,761 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:29:07,767 - __main__ - INFO - Processing URL: https://www.mbit.edu.in
+2025-03-05 18:29:10,129 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/
+2025-03-05 18:29:12,293 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2670
+2025-03-05 18:29:14,085 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=1959
+2025-03-05 18:29:15,621 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2660
+2025-03-05 18:29:17,494 - __main__ - INFO - Reached maximum pages limit (5)
+2025-03-05 18:29:17,495 - __main__ - INFO - Crawling complete. Processed 5 pages.
+2025-03-05 18:29:18,377 - __main__ - WARNING - Detected layout change on https://www.mbit.edu.in/?page_id=2670
+2025-03-05 18:29:18,706 - __main__ - INFO - Saved 5 results to crawl_results\crawl_results_20250305_182918.json
+2025-03-05 18:29:18,707 - __main__ - INFO - Crawl completed: 5 pages crawled, 5 successful extractions
+2025-03-05 18:30:00,237 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-05 18:30:00,556 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-05 18:30:00,557 - __main__ - INFO - Processing URL: https://www.mbit.edu.in
+2025-03-05 18:30:03,032 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/
+2025-03-05 18:30:05,719 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2670
+2025-03-05 18:30:07,326 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=1959
+2025-03-05 18:30:09,421 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2660
+2025-03-05 18:30:11,523 - __main__ - INFO - Reached maximum pages limit (5)
+2025-03-05 18:30:11,523 - __main__ - INFO - Crawling complete. Processed 5 pages.
+2025-03-05 18:30:11,576 - __main__ - WARNING - Detected layout change on https://www.mbit.edu.in
+2025-03-05 18:30:12,608 - __main__ - WARNING - Detected layout change on https://www.mbit.edu.in/?page_id=2670
+2025-03-05 18:30:12,950 - __main__ - INFO - Saved 5 results to crawl_results\crawl_results_20250305_183012.json
+2025-03-05 18:30:12,951 - __main__ - INFO - Crawl completed: 5 pages crawled, 5 successful extractions
+2025-03-06 11:55:46,114 - __main__ - INFO - Loaded spaCy NLP model
+2025-03-06 11:55:46,416 - __main__ - INFO - Loaded model from models\lr_model.joblib and vectorizer from models\vectorizer.joblib
+2025-03-06 11:55:46,417 - __main__ - INFO - Processing URL: https://www.mbit.edu.in
+2025-03-06 11:55:48,581 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/
+2025-03-06 11:55:50,518 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2670
+2025-03-06 11:55:52,021 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=1959
+2025-03-06 11:55:53,559 - __main__ - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2660
+2025-03-06 11:55:55,050 - __main__ - INFO - Reached maximum pages limit (5)
+2025-03-06 11:55:55,051 - __main__ - INFO - Crawling complete. Processed 5 pages.
+2025-03-06 11:55:55,954 - __main__ - WARNING - Detected layout change on https://www.mbit.edu.in/?page_id=2670
+2025-03-06 11:55:56,275 - __main__ - INFO - Saved 5 results to crawl_results\crawl_results_20250306_115556.json
+2025-03-06 11:55:56,275 - __main__ - INFO - Crawl completed: 5 pages crawled, 5 successful extractions
+2025-03-06 11:57:59,128 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 11:57:59,128 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 11:57:59,129 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 11:58:01,283 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 11:58:01,286 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 11:58:08,470 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:08] "GET / HTTP/1.1" 200 -
+2025-03-06 11:58:08,545 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-06 11:58:08,578 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-06 11:58:08,695 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:08] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:58:08,696 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:08] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:58:09,458 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-06 11:58:18,711 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:18] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:58:18,712 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:18] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:58:22,733 - __main__ - ERROR - Error starting crawl: '>=' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "d:\web_crawler\app.py", line 404, in start_crawl
+    if not colleges or college_id >= len(colleges):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'str' and 'int'
+2025-03-06 11:58:22,736 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:22] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 11:58:28,707 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:28] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:58:28,708 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:28] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:58:33,870 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:33] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 11:58:33,887 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 11:58:33,890 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 11:58:35,362 - __main__ - ERROR - Error starting crawl: '>=' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "d:\web_crawler\app.py", line 404, in start_crawl
+    if not colleges or college_id >= len(colleges):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'str' and 'int'
+2025-03-06 11:58:35,363 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:35] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 11:58:37,631 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:37] "GET / HTTP/1.1" 200 -
+2025-03-06 11:58:37,646 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 11:58:37,651 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 11:58:37,658 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:37] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:58:37,659 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:37] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:58:47,947 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:47] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:58:47,948 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:47] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:58:57,939 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:57] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:58:57,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:58:57] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:07,937 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:07] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:07,938 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:07] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:09,754 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:09] "GET / HTTP/1.1" 200 -
+2025-03-06 11:59:09,767 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 11:59:09,768 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 11:59:09,776 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:09] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:09,777 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:09] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:14,152 - __main__ - ERROR - Error starting crawl: '>=' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "d:\web_crawler\app.py", line 404, in start_crawl
+    if not colleges or college_id >= len(colleges):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'str' and 'int'
+2025-03-06 11:59:14,153 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:14] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 11:59:19,944 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:19] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:19,947 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:19] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:29,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:29] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:29,941 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:29] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:39,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:39,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:49,934 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:49] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:49,937 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:49] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 11:59:59,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:59] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 11:59:59,945 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 11:59:59] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:00:09,945 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:00:09] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:00:09,947 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:00:09] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:00:39,952 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:00:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:00:39,954 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:00:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:01:39,943 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:01:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:01:39,944 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:01:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:02:39,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:02:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:02:39,941 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:02:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:03:39,943 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:03:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:03:39,945 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:03:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:04:39,947 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:04:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:04:39,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:04:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:05:39,944 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:05:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:05:39,948 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:05:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:06:22,849 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:06:22] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:06:22,853 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:06:22] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:06:29,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:06:29] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:06:29,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:06:29] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:08:56,859 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 12:08:56,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 12:08:56,860 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 12:08:58,998 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 12:08:59,002 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 12:09:01,018 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:01,019 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:02,077 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:02,131 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,131 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,138 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:02,140 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:02,242 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:02,252 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,254 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,260 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:02,262 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:02,410 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:02,419 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,421 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,427 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:02,429 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:02,555 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:02,569 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,569 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,577 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:02,579 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:02,711 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:02,720 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,724 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,730 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:02,731 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:02,875 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:02,885 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,888 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:02,895 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:02,896 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:03,040 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:03,049 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,051 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,058 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:03,061 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:03,203 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:03,214 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,217 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,222 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:03,225 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:03,371 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:03,381 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,382 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,388 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:03,389 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:03,518 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:03,528 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,529 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,536 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:03,538 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:03,684 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:03,692 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,693 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,702 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:03,704 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:03,823 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET / HTTP/1.1" 200 -
+2025-03-06 12:09:03,832 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,834 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:09:03,843 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:03,848 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:04,568 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:04] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 12:09:05,014 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 12:09:05,728 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 12:09:06,074 - __main__ - INFO - Starting crawl for MBIT COLLEGE at https://www.mbit.edu.in
+2025-03-06 12:09:06,074 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in
+2025-03-06 12:09:08,227 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/
+2025-03-06 12:09:09,168 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:09] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 12:09:10,195 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2670
+2025-03-06 12:09:11,722 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=1959
+2025-03-06 12:09:13,230 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2660
+2025-03-06 12:09:13,843 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:13] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:13,844 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:13] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:14,733 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2564
+2025-03-06 12:09:16,241 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2653
+2025-03-06 12:09:18,040 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=4193
+2025-03-06 12:09:19,539 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=4901
+2025-03-06 12:09:21,037 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2681
+2025-03-06 12:09:22,752 - crawler.smart_crawler - INFO - Processed 10 pages, 63 remaining in queue
+2025-03-06 12:09:22,752 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=10010
+2025-03-06 12:09:23,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:23] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:23,950 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:23] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:24,323 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2692
+2025-03-06 12:09:25,842 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2700
+2025-03-06 12:09:27,571 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2815
+2025-03-06 12:09:29,065 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2753
+2025-03-06 12:09:30,597 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3355
+2025-03-06 12:09:32,290 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=9812
+2025-03-06 12:09:33,934 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:33] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:33,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:33] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:34,096 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=7380
+2025-03-06 12:09:35,843 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2860
+2025-03-06 12:09:37,707 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2870
+2025-03-06 12:09:39,373 - crawler.smart_crawler - INFO - Processed 20 pages, 136 remaining in queue
+2025-03-06 12:09:39,374 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=6364
+2025-03-06 12:09:40,962 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2999
+2025-03-06 12:09:42,464 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3010
+2025-03-06 12:09:43,845 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:43] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:43,845 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:43] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:44,050 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=5573
+2025-03-06 12:09:45,761 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3014
+2025-03-06 12:09:47,398 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=18135
+2025-03-06 12:09:49,277 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3192
+2025-03-06 12:09:50,871 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3570
+2025-03-06 12:09:52,460 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3574
+2025-03-06 12:09:53,848 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:53] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:09:53,848 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:09:53] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:09:54,058 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2819
+2025-03-06 12:09:55,631 - crawler.smart_crawler - INFO - Processed 30 pages, 178 remaining in queue
+2025-03-06 12:09:55,631 - crawler.smart_crawler - INFO - Reached maximum pages limit (30)
+2025-03-06 12:09:55,632 - crawler.smart_crawler - INFO - Crawling complete. Processed 30 pages.
+2025-03-06 12:09:56,420 - __main__ - ERROR - Error crawling https://www.mbit.edu.in: must be str, not Tag
+Traceback (most recent call last):
+  File "d:\web_crawler\app.py", line 301, in crawl
+    page_admission_data = self.extract_admission_data(html_content)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\web_crawler\app.py", line 124, in extract_admission_data
+    if current == table or (hasattr(current, 'find') and current.find(table)):
+                                                         ^^^^^^^^^^^^^^^^^^^
+TypeError: must be str, not Tag
+2025-03-06 12:09:56,431 - __main__ - INFO - Completed crawl for MBIT COLLEGE, saved to d:\web_crawler\data\results\www_mbit_edu_in.json
+2025-03-06 12:09:56,780 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 12:09:57,444 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 12:09:57,800 - __main__ - INFO - Starting crawl for ADIT COLLEGE at https://www.adit.ac.in
+2025-03-06 12:09:57,801 - crawler.smart_crawler - INFO - Processing URL: https://www.adit.ac.in
+2025-03-06 12:10:01,564 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000227E1B5C3B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 12:10:01,565 - crawler.smart_crawler - INFO - URL queue is empty, crawler finished
+2025-03-06 12:10:01,565 - crawler.smart_crawler - INFO - Crawling complete. Processed 1 pages.
+2025-03-06 12:10:01,565 - __main__ - INFO - Completed crawl for ADIT COLLEGE, saved to d:\web_crawler\data\results\www_adit_ac_in.json
+2025-03-06 12:10:03,846 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:10:03,847 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:10:08,902 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:08] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 12:10:08,917 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:10:08,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:10:16,070 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:16] "GET / HTTP/1.1" 200 -
+2025-03-06 12:10:16,088 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:10:16,089 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:10:16,094 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:16] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:10:16,097 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:16] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:10:17,366 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:17] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 12:10:17,381 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:10:17,385 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:10:21,878 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:21] "GET / HTTP/1.1" 200 -
+2025-03-06 12:10:21,894 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 12:10:21,898 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 12:10:21,902 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:10:21,904 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:10:31,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:10:31,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:10:41,943 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:10:41,948 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:10:51,938 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:10:51,939 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:10:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:11:01,943 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:11:01,944 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:11:11,945 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:11:11,946 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:11:21,936 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:11:21,937 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:11:39,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:11:39,950 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:11:48,884 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:48] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:11:48,886 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:48] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:11:51,910 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:11:51,911 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:11:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:12:01,937 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:12:01,939 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:12:11,941 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:12:11,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:12:21,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:12:21,936 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:12:31,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:12:31,936 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:12:41,946 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:12:41,948 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:12:51,947 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:12:51,948 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:12:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:13:01,938 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:13:01,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:13:11,937 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:13:11,938 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:13:37,225 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:37] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:13:37,228 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:37] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:13:41,953 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:13:41,957 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:13:51,947 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:13:51,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:13:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:14:01,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:14:01,951 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:14:11,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:14:11,937 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:14:21,939 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:14:21,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:14:31,948 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:14:31,950 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:14:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:15:39,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:15:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:15:39,944 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:15:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:16:29,512 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:29] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:16:29,515 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:29] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:16:31,912 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:16:31,913 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:16:41,939 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:16:41,940 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:16:51,944 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:16:51,945 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:16:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:17:01,950 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:17:01,951 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:17:11,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:17:11,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:17:21,938 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:17:21,939 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:17:31,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:17:31,938 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:17:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:18:39,949 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:18:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:18:39,952 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:18:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:19:39,950 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:19:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:19:39,952 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:19:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:19:48,063 - werkzeug - INFO -  * Detected change in 'd:\\web_crawler\\app.py', reloading
+2025-03-06 12:19:48,389 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 12:19:50,450 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 12:19:50,453 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 12:20:39,942 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:20:39] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 12:20:39,945 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 12:20:39] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 12:20:51,418 - werkzeug - INFO -  * Detected change in 'd:\\web_crawler\\app.py', reloading
+2025-03-06 12:20:51,737 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 14:07:54,318 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 14:07:54,319 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 14:07:54,322 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 14:07:56,514 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 14:07:56,519 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 14:07:57,775 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:07:57] "GET / HTTP/1.1" 200 -
+2025-03-06 14:07:57,846 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:07:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:07:57,890 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:07:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:07:57,896 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:07:57] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:07:57,897 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:07:57] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:07:57,902 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:07:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-06 14:08:03,470 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:03] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 14:08:04,208 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 14:08:04,903 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 14:08:05,048 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:05] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 14:08:05,270 - __main__ - INFO - Starting crawl for MBIT COLLEGE at https://www.mbit.edu.in
+2025-03-06 14:08:05,271 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in
+2025-03-06 14:08:07,900 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:07] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:08:07,901 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:07] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:08:14,249 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/
+2025-03-06 14:08:17,909 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:17] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:08:17,911 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:17] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:08:20,412 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2670
+2025-03-06 14:08:27,912 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:27] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:08:27,913 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:27] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:08:28,945 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=1959
+2025-03-06 14:08:32,243 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2660
+2025-03-06 14:08:35,308 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2564
+2025-03-06 14:08:37,908 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:37] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:08:37,910 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:37] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:08:40,109 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2653
+2025-03-06 14:08:44,824 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=4193
+2025-03-06 14:08:47,898 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:47] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:08:47,899 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:47] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:08:48,343 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=4901
+2025-03-06 14:08:51,822 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2681
+2025-03-06 14:08:56,802 - crawler.smart_crawler - INFO - Processed 10 pages, 63 remaining in queue
+2025-03-06 14:08:56,802 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=10010
+2025-03-06 14:08:57,900 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:57] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:08:57,901 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:08:57] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:02,775 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2692
+2025-03-06 14:09:07,344 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2700
+2025-03-06 14:09:07,899 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:07] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:09:07,901 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:07] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:14,511 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2815
+2025-03-06 14:09:17,932 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:17] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:09:17,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:17] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:19,727 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2753
+2025-03-06 14:09:24,952 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3355
+2025-03-06 14:09:27,925 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:27] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:09:27,926 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:27] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:32,541 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=9812
+2025-03-06 14:09:37,930 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:37] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:09:37,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:37] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:38,122 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=7380
+2025-03-06 14:09:43,187 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2860
+2025-03-06 14:09:47,402 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2870
+2025-03-06 14:09:47,921 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:47] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:09:47,921 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:47] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:54,349 - crawler.smart_crawler - INFO - Processed 20 pages, 136 remaining in queue
+2025-03-06 14:09:54,349 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=6364
+2025-03-06 14:09:57,930 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:57] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:09:57,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:09:57] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:09:59,538 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2999
+2025-03-06 14:10:07,156 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3010
+2025-03-06 14:10:07,911 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:07] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:10:07,913 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:07] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:10:11,790 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=5573
+2025-03-06 14:10:15,791 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3014
+2025-03-06 14:10:17,926 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:17] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:10:17,929 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:17] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:10:20,842 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=18135
+2025-03-06 14:10:26,115 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3192
+2025-03-06 14:10:27,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:27] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:10:27,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:27] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:10:32,234 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3570
+2025-03-06 14:10:36,816 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3574
+2025-03-06 14:10:37,925 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:37] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:10:37,927 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:37] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:10:46,364 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2819
+2025-03-06 14:10:47,930 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:47] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:10:47,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:47] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:10:52,510 - crawler.smart_crawler - INFO - Processed 30 pages, 178 remaining in queue
+2025-03-06 14:10:52,510 - crawler.smart_crawler - INFO - Reached maximum pages limit (30)
+2025-03-06 14:10:52,510 - crawler.smart_crawler - INFO - Crawling complete. Processed 30 pages.
+2025-03-06 14:10:52,689 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 14:10:52,690 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 14:10:52,796 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 14:10:52,797 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 14:10:53,116 - __main__ - ERROR - Error crawling https://www.mbit.edu.in: must be str, not Tag
+Traceback (most recent call last):
+  File "d:\web_crawler\app.py", line 401, in crawl
+    page_admission_data = self.extract_admission_data(html_content)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\web_crawler\app.py", line 135, in extract_admission_data
+    if current == table or (hasattr(current, 'find') and current.find(table)):
+                                                         ^^^^^^^^^^^^^^^^^^^
+TypeError: must be str, not Tag
+2025-03-06 14:10:53,117 - __main__ - INFO - Completed crawl for MBIT COLLEGE, saved to d:\web_crawler\data\results\www_mbit_edu_in.json
+2025-03-06 14:10:53,384 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 14:10:53,912 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 14:10:54,173 - __main__ - INFO - Starting crawl for ADIT COLLEGE at https://www.adit.ac.in
+2025-03-06 14:10:54,174 - crawler.smart_crawler - INFO - Processing URL: https://www.adit.ac.in
+2025-03-06 14:10:57,927 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:57] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:10:57,928 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:10:57] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:11:02,853 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B15BE29E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 14:11:02,854 - crawler.smart_crawler - INFO - URL queue is empty, crawler finished
+2025-03-06 14:11:02,854 - crawler.smart_crawler - INFO - Crawling complete. Processed 1 pages.
+2025-03-06 14:11:02,856 - __main__ - INFO - Completed crawl for ADIT COLLEGE, saved to d:\web_crawler\data\results\www_adit_ac_in.json
+2025-03-06 14:11:07,924 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:07] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:11:07,926 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:07] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:11:17,907 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:17] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:11:17,909 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:17] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:11:21,581 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:21] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 14:11:21,596 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:11:21,600 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:11:40,570 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:40] "GET / HTTP/1.1" 200 -
+2025-03-06 14:11:40,584 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:11:40,588 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:11:40,602 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:40] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:11:40,603 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:40] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:11:44,402 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:44] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 14:11:44,414 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:11:44,420 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:11:55,316 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:55] "GET / HTTP/1.1" 200 -
+2025-03-06 14:11:55,330 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:11:55,336 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:11:55,341 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:55] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:11:55,342 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:55] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:11:56,557 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:56] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 14:11:56,572 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:11:56,577 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:11:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:12:06,037 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:06] "GET / HTTP/1.1" 200 -
+2025-03-06 14:12:06,054 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:12:06,058 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 14:12:06,064 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:06] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 14:12:06,065 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:06] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 14:12:07,325 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:07] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 14:12:07,341 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 14:12:07,345 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 14:12:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 15:59:35,077 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 15:59:35,077 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 15:59:35,078 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 15:59:37,129 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 15:59:37,148 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 15:59:52,416 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 15:59:52] "GET / HTTP/1.1" 200 -
+2025-03-06 15:59:52,486 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 15:59:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 15:59:52,487 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 15:59:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 15:59:52,495 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 15:59:52] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 15:59:52,495 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 15:59:52] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 15:59:55,627 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 15:59:55] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 15:59:56,084 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 15:59:56,791 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 15:59:57,143 - __main__ - INFO - Starting crawl for MBIT COLLEGE at https://www.mbit.edu.in
+2025-03-06 15:59:57,144 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in
+2025-03-06 16:00:00,145 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/
+2025-03-06 16:00:02,130 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2670
+2025-03-06 16:00:02,512 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:02] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:00:02,513 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:02] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:00:03,662 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=1959
+2025-03-06 16:00:05,172 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2660
+2025-03-06 16:00:07,129 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2564
+2025-03-06 16:00:08,634 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2653
+2025-03-06 16:00:10,166 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=4193
+2025-03-06 16:00:11,689 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=4901
+2025-03-06 16:00:12,500 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:12] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:00:12,501 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:12] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:00:13,463 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2681
+2025-03-06 16:00:15,008 - crawler.smart_crawler - INFO - Processed 10 pages, 63 remaining in queue
+2025-03-06 16:00:15,008 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=10010
+2025-03-06 16:00:16,840 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2692
+2025-03-06 16:00:18,376 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2700
+2025-03-06 16:00:19,857 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2815
+2025-03-06 16:00:21,404 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2753
+2025-03-06 16:00:22,934 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3355
+2025-03-06 16:00:22,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:22] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:00:22,936 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:22] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:00:24,493 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=9812
+2025-03-06 16:00:26,323 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=7380
+2025-03-06 16:00:28,472 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2860
+2025-03-06 16:00:30,217 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2870
+2025-03-06 16:00:32,058 - crawler.smart_crawler - INFO - Processed 20 pages, 136 remaining in queue
+2025-03-06 16:00:32,059 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=6364
+2025-03-06 16:00:32,930 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:32] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:00:32,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:32] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:00:33,662 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2999
+2025-03-06 16:00:35,215 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3010
+2025-03-06 16:00:36,768 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=5573
+2025-03-06 16:00:38,603 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3014
+2025-03-06 16:00:40,164 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=18135
+2025-03-06 16:00:41,752 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3192
+2025-03-06 16:00:42,928 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:42] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:00:42,928 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:42] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:00:43,274 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3570
+2025-03-06 16:00:44,835 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=3574
+2025-03-06 16:00:46,477 - crawler.smart_crawler - INFO - Processing URL: https://www.mbit.edu.in/?page_id=2819
+2025-03-06 16:00:48,206 - crawler.smart_crawler - INFO - Processed 30 pages, 178 remaining in queue
+2025-03-06 16:00:48,206 - crawler.smart_crawler - INFO - Reached maximum pages limit (30)
+2025-03-06 16:00:48,207 - crawler.smart_crawler - INFO - Crawling complete. Processed 30 pages.
+2025-03-06 16:00:48,380 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:48,381 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:48,485 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:48,485 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:48,591 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:48,591 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:48,636 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:48,637 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,278 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,278 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,380 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,380 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,444 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,444 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,509 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,509 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,661 - __main__ - INFO - Found 0 placement tables and 6 charts/graphs
+2025-03-06 16:00:49,662 - __main__ - INFO - Extracted 6 placement data items
+2025-03-06 16:00:49,724 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,725 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,794 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,794 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:49,938 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:49,940 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:50,003 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:50,003 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:50,181 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:50,182 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:50,325 - __main__ - INFO - Found 0 placement tables and 0 charts/graphs
+2025-03-06 16:00:50,326 - __main__ - INFO - Extracted 0 placement data items
+2025-03-06 16:00:50,556 - __main__ - INFO - Completed crawl for MBIT COLLEGE, saved to d:\web_crawler\data\results\www_mbit_edu_in.json
+2025-03-06 16:00:52,919 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:52] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:00:52,920 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:00:52] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:01:01,734 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:01:01] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:01:01,751 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:01:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:01:01,758 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:01:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:03:23,312 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:23] "GET / HTTP/1.1" 200 -
+2025-03-06 16:03:23,325 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:03:23,330 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:03:23,334 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:23] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:03:23,336 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:23] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:03:25,686 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:25] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:03:26,156 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:03:26,825 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:03:27,165 - __main__ - INFO - Starting crawl for ADIT COLLEGE at https://www.adit.ac.in
+2025-03-06 16:03:27,165 - crawler.smart_crawler - INFO - Processing URL: https://www.adit.ac.in
+2025-03-06 16:03:30,403 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A941C95AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:03:30,404 - crawler.smart_crawler - INFO - Retrying https://www.adit.ac.in (attempt 2/3)...
+2025-03-06 16:03:33,338 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:33] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:03:33,340 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:33] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:03:35,617 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A93F08D700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:03:35,618 - crawler.smart_crawler - INFO - Retrying https://www.adit.ac.in (attempt 3/3)...
+2025-03-06 16:03:42,840 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A941C956D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:03:42,840 - crawler.smart_crawler - INFO - URL queue is empty, crawler finished
+2025-03-06 16:03:42,840 - crawler.smart_crawler - INFO - Crawling complete. Processed 1 pages.
+2025-03-06 16:03:42,841 - __main__ - INFO - Completed crawl for ADIT COLLEGE, saved to d:\web_crawler\data\results\www_adit_ac_in.json
+2025-03-06 16:03:43,921 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:43] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:03:43,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:43] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:03:53,930 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:53] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:03:53,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:03:53] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:04:03,338 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:03] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:04:03,340 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:03] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:04:07,356 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:07] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 16:04:07,376 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:04:07,377 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:04:10,040 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:10] "GET / HTTP/1.1" 200 -
+2025-03-06 16:04:10,059 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:04:10,064 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:04:10,069 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:10] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:04:10,070 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:10] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:04:10,951 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:10] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:04:13,381 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:13] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:04:19,314 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:19] "GET / HTTP/1.1" 200 -
+2025-03-06 16:04:19,326 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:04:19,329 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:04:19,335 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:19] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:04:19,337 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:19] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:04:20,563 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:20] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:04:23,201 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:23] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 16:04:23,216 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:04:23,220 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:04:29,345 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:29] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:04:29,345 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:29] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:04:29,364 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:04:29] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:06:27,327 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 16:06:27,328 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 16:06:27,328 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 16:06:29,492 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 16:06:29,496 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 16:06:29,559 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:29] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:06:30,110 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:30] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:06:30,172 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:06:30,173 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:06:32,082 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:32] "GET / HTTP/1.1" 200 -
+2025-03-06 16:06:32,098 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:06:32,102 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:06:32,114 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:32] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:06:32,115 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:32] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:06:33,536 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:33] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:06:37,747 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:37] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:06:37,763 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:06:37,763 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:06:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:39:44,586 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:44] "GET / HTTP/1.1" 200 -
+2025-03-06 16:39:44,601 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:39:44,604 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:39:44,611 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:44] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:39:44,613 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:44] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:39:47,743 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:47] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:39:48,069 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:39:48,619 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:39:48,895 - __main__ - INFO - Starting crawl for ADIT COLLEGE at https://www.adit.ac.in
+2025-03-06 16:39:48,896 - crawler.smart_crawler - INFO - Processing URL: https://www.adit.ac.in
+2025-03-06 16:39:52,149 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D066306090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:39:52,150 - crawler.smart_crawler - INFO - Retrying https://www.adit.ac.in (attempt 2/3)...
+2025-03-06 16:39:54,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:54] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:39:54,932 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:39:54] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:39:57,355 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D06365CA10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:39:57,355 - crawler.smart_crawler - INFO - Retrying https://www.adit.ac.in (attempt 3/3)...
+2025-03-06 16:40:04,570 - crawler.smart_crawler - ERROR - Error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D0616BAE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:40:04,571 - crawler.smart_crawler - INFO - URL queue is empty, crawler finished
+2025-03-06 16:40:04,572 - crawler.smart_crawler - INFO - Crawling complete. Processed 1 pages.
+2025-03-06 16:40:04,574 - __main__ - INFO - Completed crawl for ADIT COLLEGE, saved to d:\web_crawler\data\results\www_adit_ac_in.json
+2025-03-06 16:40:04,931 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:04] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:40:04,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:04] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:40:08,038 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:08] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 16:40:08,057 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:40:08,062 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:40:11,645 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:11] "GET / HTTP/1.1" 200 -
+2025-03-06 16:40:11,660 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:40:11,665 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:40:11,669 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:40:11,671 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:40:13,011 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:13] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:40:13,029 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:40:13,030 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:40:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:44:02,609 - werkzeug - INFO -  * Detected change in 'd:\\web_crawler\\app_enhanced.py', reloading
+2025-03-06 16:44:02,966 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 16:44:05,158 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 16:44:05,162 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 16:44:34,041 - werkzeug - INFO -  * Detected change in 'd:\\web_crawler\\crawler\\enhanced_college_crawler.py', reloading
+2025-03-06 16:44:34,293 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 16:44:36,345 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 16:44:36,349 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 16:46:46,905 - werkzeug - INFO -  * Detected change in 'd:\\web_crawler\\app_enhanced.py', reloading
+2025-03-06 16:46:47,157 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 16:46:49,280 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 16:46:49,284 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 16:46:55,645 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 16:46:55,646 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 16:46:55,646 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 16:46:57,694 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 16:46:57,698 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 16:46:58,905 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:46:58] "GET / HTTP/1.1" 200 -
+2025-03-06 16:46:58,965 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:46:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:46:58,966 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:46:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:46:58,972 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:46:58] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:46:58,972 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:46:58] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:47:02,180 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:02] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:47:02,659 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:47:03,003 - crawler.enhanced_college_crawler - INFO - Starting enhanced crawl for MBIT COLLEGE at https://www.mbit.edu.in
+2025-03-06 16:47:05,462 - crawler.enhanced_college_crawler - INFO - Extracted 66 menu links
+2025-03-06 16:47:05,463 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in (Admission)
+2025-03-06 16:47:05,464 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:47:05,464 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:47:05,464 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:47:05,465 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:47:05,465 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:47:05,465 - crawler.enhanced_college_crawler - INFO - Identified 6 important URLs
+2025-03-06 16:47:07,084 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Admission)
+2025-03-06 16:47:07,084 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:47:07,084 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:47:07,085 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:47:07,085 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:47:07,085 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:47:08,971 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=9812 (Admission)
+2025-03-06 16:47:08,972 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:47:08,972 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:47:08,973 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:47:08,973 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:47:08,973 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:47:08,973 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Training & Placement Cell)
+2025-03-06 16:47:08,973 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9836%20 (Placement Records)
+2025-03-06 16:47:08,974 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9832 (Placement Gallery)
+2025-03-06 16:47:08,974 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=10198 (Student Internship Records)
+2025-03-06 16:47:08,974 - crawler.enhanced_college_crawler - ERROR - Error crawling https://www.mbit.edu.in: Set changed size during iteration
+Traceback (most recent call last):
+  File "d:\web_crawler\crawler\enhanced_college_crawler.py", line 863, in crawl
+    for url in self.important_urls:
+               ^^^^^^^^^^^^^^^^^^^
+RuntimeError: Set changed size during iteration
+2025-03-06 16:47:08,975 - crawler.enhanced_college_crawler - INFO - Completed enhanced crawl for MBIT COLLEGE, saved to d:\web_crawler\data\results\www_mbit_edu_in.json
+2025-03-06 16:47:08,987 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:08] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:47:08,988 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:08] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:47:13,310 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:13] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:47:13,325 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:47:13,329 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:47:17,266 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:17] "GET / HTTP/1.1" 200 -
+2025-03-06 16:47:17,281 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:47:17,285 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:47:17,292 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:17] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:47:17,293 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:17] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:47:20,963 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:20] "GET / HTTP/1.1" 200 -
+2025-03-06 16:47:20,977 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:47:20,982 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:47:20,986 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:20] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:47:20,987 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:20] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:47:31,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:47:31,934 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:47:41,932 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:47:41,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:47:51,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:47:51,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:47:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:09,302 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 16:48:09,302 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 16:48:09,303 - werkzeug - INFO -  * Restarting with stat
+2025-03-06 16:48:11,390 - werkzeug - WARNING -  * Debugger is active!
+2025-03-06 16:48:11,395 - werkzeug - INFO -  * Debugger PIN: 890-274-648
+2025-03-06 16:48:11,434 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "GET / HTTP/1.1" 200 -
+2025-03-06 16:48:11,486 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:48:11,488 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:48:11,514 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:11,515 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:11,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:11,923 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:12,304 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:12] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:48:12,603 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:48:12,891 - crawler.enhanced_college_crawler - INFO - Starting enhanced crawl for ADIT COLLEGE at https://www.adit.ac.in
+2025-03-06 16:48:13,385 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:13] "POST /start_crawl HTTP/1.1" 200 -
+2025-03-06 16:48:16,104 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000221A19C3EF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:48:16,105 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 2/5)...
+2025-03-06 16:48:21,328 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219EA091C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:48:21,330 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 3/5)...
+2025-03-06 16:48:21,519 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:21,521 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:21,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:21,923 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:21] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:28,547 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219DD26450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:48:28,547 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 4/5)...
+2025-03-06 16:48:31,928 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:31] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:31,929 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:39,762 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219FC90530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:48:39,763 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 5/5)...
+2025-03-06 16:48:41,527 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:41,529 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:51,932 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:48:51,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:48:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:48:58,974 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219DDB5280>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:48:58,974 - crawler.enhanced_college_crawler - ERROR - Max retries exceeded for https://www.adit.ac.in
+2025-03-06 16:48:58,975 - crawler.enhanced_college_crawler - ERROR - Error crawling https://www.adit.ac.in: Could not fetch homepage: https://www.adit.ac.in
+Traceback (most recent call last):
+  File "d:\web_crawler\crawler\enhanced_college_crawler.py", line 849, in crawl
+    raise Exception(f"Could not fetch homepage: {self.website_url}")
+Exception: Could not fetch homepage: https://www.adit.ac.in
+2025-03-06 16:48:58,977 - crawler.enhanced_college_crawler - INFO - Completed enhanced crawl for ADIT COLLEGE, saved to d:\web_crawler\data\results\www_adit_ac_in.json
+2025-03-06 16:48:59,244 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:48:59,513 - crawler.enhanced_college_crawler - INFO - Starting enhanced crawl for MBIT COLLEGE at https://www.mbit.edu.in
+2025-03-06 16:49:01,516 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:01,518 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:01,988 - crawler.enhanced_college_crawler - INFO - Extracted 66 menu links
+2025-03-06 16:49:01,988 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in (Admission)
+2025-03-06 16:49:01,988 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:49:01,989 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:49:01,989 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:49:01,989 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:49:01,990 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:49:01,990 - crawler.enhanced_college_crawler - INFO - Identified 6 important URLs
+2025-03-06 16:49:03,302 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:03] "GET /college_data/1 HTTP/1.1" 200 -
+2025-03-06 16:49:03,315 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:49:03,320 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:49:03,668 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission)
+2025-03-06 16:49:03,668 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:49:03,669 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:49:03,670 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:49:03,670 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:49:03,670 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:49:05,256 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5870 (Admission)
+2025-03-06 16:49:05,256 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:49:05,257 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:49:05,257 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:49:05,257 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:49:05,258 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:49:06,729 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:06] "[32mGET /recrawl/1 HTTP/1.1[0m" 302 -
+2025-03-06 16:49:06,733 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:06] "GET / HTTP/1.1" 200 -
+2025-03-06 16:49:06,751 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:49:06,754 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:49:06,760 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:06] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:06,761 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:06] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:07,139 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=9812 (Admission)
+2025-03-06 16:49:07,140 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=10010 (Admission Inquiry (Regular)  2024-25)
+2025-03-06 16:49:07,140 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=2692 (Undergraduate Programs)
+2025-03-06 16:49:07,140 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Placement)
+2025-03-06 16:49:07,140 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=5870 (Training & Placement Committee)
+2025-03-06 16:49:07,140 - crawler.enhanced_college_crawler - INFO - Found potential admission URL: https://www.mbit.edu.in/?page_id=5970 (Pay Fees Online)
+2025-03-06 16:49:07,141 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9812 (Training & Placement Cell)
+2025-03-06 16:49:07,141 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9836%20 (Placement Records)
+2025-03-06 16:49:07,141 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=9832 (Placement Gallery)
+2025-03-06 16:49:07,141 - crawler.enhanced_college_crawler - INFO - Found potential placement URL: https://www.mbit.edu.in/?page_id=10198 (Student Internship Records)
+2025-03-06 16:49:07,141 - crawler.enhanced_college_crawler - ERROR - Error crawling https://www.mbit.edu.in: Set changed size during iteration
+Traceback (most recent call last):
+  File "d:\web_crawler\crawler\enhanced_college_crawler.py", line 863, in crawl
+    for url in self.important_urls:
+               ^^^^^^^^^^^^^^^^^^^
+RuntimeError: Set changed size during iteration
+2025-03-06 16:49:07,142 - crawler.enhanced_college_crawler - INFO - Completed enhanced crawl for MBIT COLLEGE, saved to d:\web_crawler\data\results\www_mbit_edu_in.json
+2025-03-06 16:49:07,515 - crawler.smart_crawler - INFO - Loaded spaCy NLP model
+2025-03-06 16:49:07,875 - crawler.enhanced_college_crawler - INFO - Starting enhanced crawl for ADIT COLLEGE at https://www.adit.ac.in
+2025-03-06 16:49:09,925 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:09] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:09,926 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:09] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:11,090 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219FD219D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:49:11,091 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 2/5)...
+2025-03-06 16:49:16,315 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219FD23200>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:49:16,316 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 3/5)...
+2025-03-06 16:49:16,932 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:16] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:16,933 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:16] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:19,031 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:19] "GET /college_data/0 HTTP/1.1" 200 -
+2025-03-06 16:49:19,045 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-06 16:49:19,050 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-06 16:49:23,555 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219FD23230>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:49:23,555 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 4/5)...
+2025-03-06 16:49:26,770 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:26] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:26,770 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:26] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:29,910 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:29] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:29,914 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:29] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:30,999 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:30] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:31,001 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:31] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:34,765 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002219DEDA2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:49:34,765 - crawler.enhanced_college_crawler - INFO - Retrying https://www.adit.ac.in (attempt 5/5)...
+2025-03-06 16:49:41,920 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:41] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:41,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:41] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:51,932 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:51] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:49:51,934 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:49:51] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:49:54,115 - crawler.enhanced_college_crawler - ERROR - Connection error fetching https://www.adit.ac.in: HTTPSConnectionPool(host='www.adit.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000221A9E97530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-06 16:49:54,115 - crawler.enhanced_college_crawler - ERROR - Max retries exceeded for https://www.adit.ac.in
+2025-03-06 16:49:54,116 - crawler.enhanced_college_crawler - ERROR - Error crawling https://www.adit.ac.in: Could not fetch homepage: https://www.adit.ac.in
+Traceback (most recent call last):
+  File "d:\web_crawler\crawler\enhanced_college_crawler.py", line 849, in crawl
+    raise Exception(f"Could not fetch homepage: {self.website_url}")
+Exception: Could not fetch homepage: https://www.adit.ac.in
+2025-03-06 16:49:54,116 - crawler.enhanced_college_crawler - INFO - Completed enhanced crawl for ADIT COLLEGE, saved to d:\web_crawler\data\results\www_adit_ac_in.json
+2025-03-06 16:50:01,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:50:01] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:50:01,935 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:50:01] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:50:11,923 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:50:11] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:50:11,923 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:50:11] "GET /crawl_status/1 HTTP/1.1" 200 -
+2025-03-06 16:50:21,920 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:50:21] "GET /crawl_status/0 HTTP/1.1" 200 -
+2025-03-06 16:50:21,922 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2025 16:50:21] "GET /crawl_status/1 HTTP/1.1" 200 -

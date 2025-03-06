@@ -1,0 +1,36 @@
+{
+    "project_name": "mbit_crawler",
+    "goal": "Extract information from MBIT website",
+    "seed_urls": [
+        "https://www.mbit.edu.in"
+    ],
+    "keywords": [
+        "admission",
+        "course",
+        "program"
+    ],
+    "allowed_domains": [
+        "mbit.edu.in",
+        "www.mbit.edu.in"
+    ],
+    "max_depth": 2,
+    "max_pages_per_domain": 10,
+    "crawl_frequency": "daily",
+    "custom_frequency_minutes": 1440,
+    "respect_robots_txt": false,
+    "user_agent": "SmartWebCrawler/1.0",
+    "extract_full_text": true,
+    "min_content_length": 100,
+    "filter_advertisements": true,
+    "use_nlp": true,
+    "use_ml_classification": true,
+    "confidence_threshold": 0.7,
+    "output_directory": "crawl_results",
+    "output_format": "json",
+    "save_html": false,
+    "parallel_crawlers": 1,
+    "request_timeout": 30,
+    "request_delay": 1.0,
+    "enable_notifications": false,
+    "notification_email": ""
+}

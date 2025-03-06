@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Data Crawler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>College Data Crawler</h1>
+            <p>Extract admission and placement information from college websites</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="colleges-section">
+            <h2>Available Colleges ({{ count }})</h2>
+            <div class="college-list">
+                {% if colleges %}
+                    {% for college in colleges %}
+                        <div class="college-card" data-id="{{ loop.index0 }}">
+                            <h3>{{ college.name }}</h3>
+                            <p class="website"><a href="{{ 'https://' + college.website if not college.website.startswith(('http://', 'https://')) else college.website }}" target="_blank">{{ college.website }}</a></p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary start-crawl" data-id="{{ loop.index0 }}">Start Crawl</button>
+                                <a href="{{ url_for('college_data', college_id=loop.index0) }}" class="btn btn-secondary view-data">View Data</a>
+                            </div>
+                            <div class="status-indicator" id="status-{{ loop.index0 }}">Not started</div>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="no-data">
+                        <p>No colleges found in the JSON file. Please add colleges to data/colleges.json.</p>
+                    </div>
+                {% endif %}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 College Data Crawler</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

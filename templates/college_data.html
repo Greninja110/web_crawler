@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ college.name }} - College Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>College Data: {{ college.name }}</h1>
+            <p class="website">
+                <a href="{{ 'https://' + college.website if not college.website.startswith(('http://', 'https://')) else college.website }}"
+                    target="_blank">
+                    {{ college.website }}
+                </a>
+            </p>
+            <nav>
+                <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Colleges</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {% if status == 'not_started' or status == 'queued' or status == 'running' %}
+        <div class="data-status {{ status }}">
+            <h2>Data Extraction Status: {{ status|title }}</h2>
+            {% if status == 'not_started' %}
+            <p>Crawling has not yet been started for this college.</p>
+            <button class="btn btn-primary start-crawl" data-id="{{ college_id }}">Start Crawl</button>
+            {% elif status == 'queued' %}
+            <p>Crawling job is queued and will begin shortly.</p>
+            <div class="loading-spinner"></div>
+            {% elif status == 'running' %}
+            <p>Crawling is currently in progress. This may take a few minutes.</p>
+            <div class="loading-spinner"></div>
+            {% endif %}
+        </div>
+        <div id="status-message"></div>
+        <script>
+            // Auto-refresh the page to check status
+            setTimeout(function () {
+                location.reload();
+            }, 10000); // Refresh every 10 seconds
+        </script>
+        {% elif status == 'error' %}
+        <div class="data-status error">
+            <h2>Error During Crawling</h2>
+            <p>{{ results.message }}</p>
+            <button class="btn btn-primary start-crawl" data-id="{{ college_id }}">Retry Crawl</button>
+        </div>
+        {% elif not results %}
+        <div class="data-status error">
+            <h2>No Data Available</h2>
+            <p>No data has been found for this college. Try starting a crawl job.</p>
+            <button class="btn btn-primary start-crawl" data-id="{{ college_id }}">Start Crawl</button>
+        </div>
+        {% else %}
+        <!-- Tabs for navigating between admission and placement data -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="admission">Admission Information</button>
+            <button class="tab-btn" data-tab="placement">Placement Information</button>
+        </div>
+
+        <!-- Crawl information -->
+        <div class="crawl-info">
+            <p>Crawl completed at: {{ results.crawl_time }}</p>
+            <p>Pages processed: {{ results.pages_processed }}</p>
+            <p>Status: {{ results.status }}</p>
+            {% if results.message %}
+            <p>Message: {{ results.message }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Admission Data Tab -->
+        <section id="admission-tab" class="tab-content active">
+            <h2>Admission Information</h2>
+
+            {% if results.admission_data %}
+            {% for key, item in results.admission_data.items() %}
+            <div class="data-card">
+                <h3>Admission Data from: <a href="{{ item.url }}" target="_blank">{{ item.url }}</a></h3>
+
+                {% if item.data.headers and item.data.rows %}
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                {% for header in item.data.headers %}
+                                <th>{{ header }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in item.data.rows %}
+                            <tr>
+                                {% for cell in row %}
+                                <td>{{ cell }}</td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p>No table data available in this section.</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="no-data">
+                <p>No admission data found for this college.</p>
+            </div>
+            {% endif %}
+        </section>
+
+        <!-- Placement Data Tab -->
+        <section id="placement-tab" class="tab-content">
+            <h2>Placement Information</h2>
+
+            {% if results.placement_data %}
+            {% for key, item in results.placement_data.items() %}
+            <div class="data-card">
+                <h3>Placement Data from: <a href="{{ item.url }}" target="_blank">{{ item.url }}</a></h3>
+
+                {% if item.data.type == 'text' %}
+                <!-- Text content for non-tabular data -->
+                <div class="placement-text">
+                    <h4>{{ item.data.heading }}</h4>
+                    <p>{{ item.data.content }}</p>
+
+                    {% if item.data.extracted_stats %}
+                    <div class="stats-highlights">
+                        {% if item.data.extracted_stats.percentages %}
+                        <div class="stat">
+                            <h5>Percentages</h5>
+                            <ul>
+                                {% for percentage in item.data.extracted_stats.percentages %}
+                                <li>{{ percentage }}%</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if item.data.extracted_stats.salaries %}
+                        <div class="stat">
+                            <h5>Salary Packages</h5>
+                            <ul>
+                                {% for salary in item.data.extracted_stats.salaries %}
+                                <li>₹{{ salary }} lakhs</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if item.data.extracted_stats.company_counts %}
+                        <div class="stat">
+                            <h5>Companies</h5>
+                            <ul>
+                                {% for count in item.data.extracted_stats.company_counts %}
+                                <li>{{ count }} companies</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% elif item.data.headers and item.data.rows %}
+                <!-- Table content -->
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                {% for header in item.data.headers %}
+                                <th>{{ header }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in item.data.rows %}
+                            <tr>
+                                {% for cell in row %}
+                                <td>{{ cell }}</td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p>No structured data available in this section.</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="no-data">
+                <p>No placement data found for this college.</p>
+            </div>
+            {% endif %}
+        </section>
+        <!-- Placement Data Tab -->
+        <section id="placement-tab" class="tab-content">
+            <h2>Placement Information</h2>
+
+            {% if results.placement_data %}
+            {% for key, item in results.placement_data.items() %}
+            <div class="data-card">
+                <h3>Placement Data from: <a href="{{ item.url }}" target="_blank">{{ item.url }}</a></h3>
+
+                {% if item.data.type == 'chart' %}
+                <!-- Chart content -->
+                <div class="chart-info">
+                    {% if item.data.heading %}
+                    <h4>{{ item.data.heading }}</h4>
+                    {% endif %}
+                    <div class="chart-content">
+                        {{ item.data.content }}
+                    </div>
+
+                    {% if item.data.extracted_stats %}
+                    <div class="stats-highlights">
+                        {% if item.data.extracted_stats.percentages %}
+                        <div class="stat">
+                            <h5>Percentages</h5>
+                            <ul>
+                                {% for percentage in item.data.extracted_stats.percentages %}
+                                <li>{{ percentage }}%</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if item.data.extracted_stats.salaries %}
+                        <div class="stat">
+                            <h5>Salary Packages</h5>
+                            <ul>
+                                {% for salary in item.data.extracted_stats.salaries %}
+                                <li>₹{{ salary }} lakhs</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if item.data.extracted_stats.company_counts %}
+                        <div class="stat">
+                            <h5>Companies</h5>
+                            <ul>
+                                {% for count in item.data.extracted_stats.company_counts %}
+                                <li>{{ count }} companies</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if item.data.extracted_stats.placement_rate %}
+                        <div class="stat">
+                            <h5>Placement Rate</h5>
+                            <ul>
+                                {% for rate in item.data.extracted_stats.placement_rate %}
+                                <li>{{ rate }}% placement rate</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% elif item.data.type == 'table' %}
+                <!-- Table content -->
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                {% for header in item.data.data.headers %}
+                                <th>{{ header }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in item.data.data.rows %}
+                            <tr>
+                                {% for cell in row %}
+                                <td>{{ cell }}</td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% elif item.data.type == 'text' %}
+                <!-- Text content -->
+                <div class="text-content">
+                    <h4>{{ item.data.heading }}</h4>
+                    <p>{{ item.data.content }}</p>
+
+                    {% if item.data.extracted_stats %}
+                    <div class="stats-highlights">
+                        <!-- Same stats display as above -->
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="no-data">
+                <p>No placement data found for this college.</p>
+            </div>
+            {% endif %}
+        </section>
+        {% endif %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 College Data Crawler</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
