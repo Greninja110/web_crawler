@@ -1,12 +1,13 @@
 {
     "project_name": "college_crawler_www.mbit.edu.in",
-    "goal": "Extract admission and placement information",
+    "goal": "Extract admission, placement, and internship information",
     "seed_urls": [
         "https://www.mbit.edu.in"
     ],
     "keywords": [
         "admission",
         "placement",
+        "internship",
         "eligibility",
         "fee",
         "cutoff",
@@ -14,17 +15,13 @@
         "scholarship",
         "placed",
         "packages",
-        "recruiter",
-        "internship",
-        "student",
-        "record",
-        "statistics"
+        "recruiter"
     ],
     "allowed_domains": [
         "www.mbit.edu.in"
     ],
     "max_depth": 3,
-    "max_pages_per_domain": 100,
+    "max_pages_per_domain": 50,
     "crawl_frequency": "daily",
     "custom_frequency_minutes": 1440,
     "respect_robots_txt": false,

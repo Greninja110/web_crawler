@@ -1,0 +1,8 @@
+.venv/
+crawl_result/
+data/
+models/
+college_crawler.log
+crawler.log
+enhanced_college_crawler.log
+enhanced_crawler.log
